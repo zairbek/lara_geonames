@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d425ae0d9fb6e8f1baaf748a00c8ba0f",
+    "content-hash": "86f8c208c3445367a238e72b9d6a460b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -57,6 +57,63 @@
                 "stack"
             ],
             "time": "2019-12-24T22:41:47+00:00"
+        },
+        {
+            "name": "aternus/geonames-client",
+            "version": "1.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Aternus/geonames-client.git",
+                "reference": "7d2dc23a73704a46603f22a072481e7b7770f285"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Aternus/geonames-client/zipball/7d2dc23a73704a46603f22a072481e7b7770f285",
+                "reference": "7d2dc23a73704a46603f22a072481e7b7770f285",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-xml": "*",
+                "guzzlehttp/guzzle": "^6.3",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "ext-xdebug": "*",
+                "phpunit/phpunit": "^7.3",
+                "squizlabs/php_codesniffer": "^3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GeoNames\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kiril Reznik",
+                    "email": "kiril@atern.us",
+                    "homepage": "https://atern.us/"
+                }
+            ],
+            "description": "GeoNames API Client",
+            "homepage": "https://github.com/Aternus/geonames-client",
+            "keywords": [
+                "ISO-639-1",
+                "api",
+                "countries",
+                "database",
+                "geographical",
+                "geonames",
+                "iso-3166",
+                "languages"
+            ],
+            "time": "2020-04-29T20:27:49+00:00"
         },
         {
             "name": "brick/math",
@@ -958,6 +1015,61 @@
                 "psysh"
             ],
             "time": "2020-04-07T15:01:31+00:00"
+        },
+        {
+            "name": "laravel/ui",
+            "version": "v2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/ui.git",
+                "reference": "15368c5328efb7ce94f35ca750acde9b496ab1b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/15368c5328efb7ce94f35ca750acde9b496ab1b1",
+                "reference": "15368c5328efb7ce94f35ca750acde9b496ab1b1",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^7.0",
+                "illuminate/filesystem": "^7.0",
+                "illuminate/support": "^7.0",
+                "php": "^7.2.5"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Ui\\UiServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Ui\\": "src/",
+                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel UI utilities and presets.",
+            "keywords": [
+                "laravel",
+                "ui"
+            ],
+            "time": "2020-04-29T15:06:45+00:00"
         },
         {
             "name": "league/commonmark",
