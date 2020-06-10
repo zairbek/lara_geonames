@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('geonames', 'GeoNameController@index')->name('geoname');
+Route::post('geonames', 'GeoNameController@fetch')->name('geoname.fetch');
+
