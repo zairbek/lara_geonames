@@ -13,10 +13,12 @@
                     </div>
                     <div class="card-body">
 
-                        <form action="{{ route('geoname.fetch') }}">
+                        <form action="{{ route('geoname.fetch') }}" method="post">
+                            @csrf
+
                             <div class="form-group">
                                 <label>Country Code</label>
-                                <input type="Country" class="form-control">
+                                <input type="text" name="country-code" class="form-control">
                             </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
