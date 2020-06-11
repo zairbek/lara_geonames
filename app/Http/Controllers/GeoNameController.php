@@ -23,7 +23,7 @@ class GeoNameController extends Controller
         for ($i = 0; $i < 5000; $i += 1000) {
             $searchArr = $g->search([
                 'country' => $request['country-code'],
-                'lang'    => 'en', // display info in Russian
+                'lang'    => 'ru', // display info in Russian
                 'type' => 'json',
 //            'featureClass' => 'P',
                 'featureCode' => 'PPL',
@@ -91,13 +91,14 @@ class GeoNameController extends Controller
 
         }
 
+        $filename = 'countries/' . $filename . '.txt';
 
-        file_put_contents($filename . '.txt', $result);
+        file_put_contents($filename, $result);
 
 
 
 //        dump($result);
-        dd($geoArr);
+        dump($geoArr);
 
         return view('geonames.fetch');
     }

@@ -1,0 +1,18 @@
+CODE;PARENT_CODE;TYPE_CODE;NAME.EN.NAME;EXT.YAMARKET.0;EXT.ZIP.0
+nr;;COUNTRY;Nauru;;
+nr01;nr;REGION;Aiwo;;
+nr7626485;nr01;CITY;Arijejen;;
+nr11;nr;REGION;Meneng;;
+nr11695310;nr11;CITY;Menen;;
+nr08;nr;REGION;Denigomodu;;
+nr12129637;nr08;CITY;The Location;;
+nr06;nr;REGION;Boe;;
+nr11695309;nr06;CITY;Boe;;
+nr12;nr;REGION;Nibok;;
+nr11695311;nr12;CITY;Nibok;;
+nr03;nr;REGION;Anetan;;
+nr2110422;nr03;CITY;Ronave;;
+nr09;nr;REGION;Ewa;;
+nr2110444;nr09;CITY;Arubo;;
+nr07;nr;REGION;Buada;;
+nr7626489;nr07;CITY;Arenibek;;

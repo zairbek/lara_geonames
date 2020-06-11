@@ -1,0 +1,17 @@
+CODE;PARENT_CODE;TYPE_CODE;NAME.EN.NAME;EXT.YAMARKET.0;EXT.ZIP.0
+sm;;COUNTRY;San Marino;;
+sm09;sm;REGION;Serravalle;;
+sm3177260;sm09;CITY;Falciano;;
+sm3177564;sm09;CITY;Dogana;;
+sm6941147;sm09;CITY;Fiorina;;
+sm08;sm;REGION;Montegiardino;;
+sm8199070;sm08;CITY;Cerbaiola;;
+sm07;sm;REGION;San Marino;;
+sm8199072;sm07;CITY;Casole;;
+sm7302190;sm07;CITY;Murata;;
+sm06;sm;REGION;Borgo Maggiore;;
+sm8199073;sm06;CITY;Cà Rigo;;
+sm01;sm;REGION;Acquaviva;;
+sm7302185;sm01;CITY;Gualdicciolo;;
+sm03;sm;REGION;Domagnano;;
+sm11205481;sm03;CITY;Piandivello;;
